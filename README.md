@@ -6,10 +6,10 @@ Search frontend
 Search: Search over Wikipedia. The documents relevancy is ranked by the length of the query. Long query is ranked by BM25 retrieval function and short query is ranked by anchor and title search.
 
 # Indexes: 
-Index_body_posting_locs
-Index_body_DL
-Index_title
-Index_body
+Index_body_posting_locs,
+Index_body_DL,
+Index_title,
+Index_body,
 Index_anchor
 
 # Three parts:
